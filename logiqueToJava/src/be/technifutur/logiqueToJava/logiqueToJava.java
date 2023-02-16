@@ -11,7 +11,13 @@ public class logiqueToJava {
         Runnable[] exercices = 
         {
             new NombrePremier(),
-            new NombreParfait()
+            new NombreParfait(),
+            new RecupCaract(),
+            new RecupText(),
+            new RechercherRemplacer(),
+            new DecoAutourMot(),
+            new DecoAutourMotHorinzontal(),
+            new CompteurDigitale()
         };
         do{
             for( int i = 0 ; i < exercices.length; i++){
