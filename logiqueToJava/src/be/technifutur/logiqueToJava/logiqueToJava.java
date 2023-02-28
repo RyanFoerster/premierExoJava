@@ -17,7 +17,11 @@ public class logiqueToJava {
             new RechercherRemplacer(),
             new DecoAutourMot(),
             new DecoAutourMotHorinzontal(),
-            new CompteurDigitale()
+            new CompteurDigitale(),
+            new DichotomicSearch(),
+            new Sudoku(),
+            new logiqueListe(),
+            new triParTas()
         };
         do{
             for( int i = 0 ; i < exercices.length; i++){
