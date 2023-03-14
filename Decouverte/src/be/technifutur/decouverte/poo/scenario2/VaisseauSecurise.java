@@ -17,7 +17,7 @@ public class VaisseauSecurise {
     public VaisseauSecurise(int maxMissile, String nom){
         this.maxMissile = maxMissile;
         this.nbMissile = 0;
-        this.nom = nom == null && nom.isBlank() ? "Defaut" : nom;
+        this.nom = nom == null ? "Defaut" : nom;
     }
 
     // Méthodes d'instance
